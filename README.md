@@ -73,6 +73,7 @@ Als Data Scientist möchte ich einen auftretenden Fehler im nachfolgenden Code S
 lösen. Es scheint, als wird nicht ein Boxplot korrekt dargestellt, das das Gehalt des
 Hauptantragstellers und des Co.-Antragstellers gegenüberstellt:
 
+```Python
 fig, ax = plt.subplots(figsize=(5,6))
 ax.set_title("Distribution of Application Income and Co-Application Income")
 ax.set_xlabel("Income")
@@ -80,6 +81,7 @@ ax.set_ylabel("Amount [in US$]")
 ax.boxplot([df["Applicant_Income"], df["CoApplicant_Income"]])
 ax.set_xticklabels(['Applicant_Income', 'CoApplicant_Income'])
 plt.show()
+```
 
 Wo liegt der Fehler und wie kann dieser behoben werden?
 - [ ] Done
