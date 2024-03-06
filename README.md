@@ -155,3 +155,39 @@ plt.show()
 Wo liegt der Fehler und wie kann dieser behoben werden?
 
 - [ ] Done
+
+## 25. [KR25] Integer Encoding
+
+Als Data Scientist möchte ich alle kategorischen Werte in numerische Werte umwandeln. Verwende hierzu die Pandas Methode factorize.
+
+- [ ] Done
+
+## 26. [KR26] X und y Erstellung
+
+Als Data Scientist möchte ich mein X und y (Zielvariable) erstellen. Hierbei achte ich darauf, dass nur die für das Modelltraining notwendigen Features/Spalten verwendet werden. Dies soll im Review begründet werden.
+
+- [ ] Done
+
+## 27. [KR27] Zielvariable visualisieren
+
+Als Data Scientist möchte ich wissen ob ich ein Balanced oder Imbalanced Dataset habe. Die Auswirkungen eines Imbalanced Datasets sollen im Review dem Business erklärt werden.
+
+- [ ] Done
+
+## 28. [KR28] Training und Test Daten
+
+Als Data Scientist möchte ich den Datensatz in Trainings und Testdaten (20%) aufteilen - verwende die in der Vorlesung vorgestellte Methode.
+
+- [ ] Done
+
+## 29. [KR29] Random Forest Training
+
+Als Data Scientist möchte ich ein ML Modell (RandomForestClassifier) trainieren und die Testergebnisse mithilfe einer Confusion Matrix visualisieren. Tipp: Wie interpretierst du die Confusion Matrix? Verwende für das Modelltraining den bereits vorhandenen Code. Gerne kannst du mit unterschiedlichen Parametern experimentieren.
+
+- [ ] Done
+
+## 30. [KR30] Neuronales Netzwerk
+
+Als Data Scientist möchte ich ein Deep Learning Modell trainieren und die das beste Testergebnis mithilfe einer Confusion Matrix visualisieren. Bitte interpretiere das Testergebnis basierend auf der erstellte Confusion Matrix. Experimentiere gerne die im Notebook beschriebenen Hyperparameter.
+
+- [ ] Done
